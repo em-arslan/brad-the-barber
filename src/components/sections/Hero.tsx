@@ -76,7 +76,7 @@ export default function Hero() {
                 priority={index === 0}
                 loading={index === 0 ? undefined : "lazy"}
                 sizes="100vw"
-                className="object-cover object-center"
+                className="hero-slide-image object-cover object-center"
               />
             </div>
           </div>

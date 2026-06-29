@@ -122,9 +122,11 @@ button:disabled,
   );
 }
 
-.hero-ken-burns {
-  animation: heroKenBurns 5.5s ease-out forwards;
-  will-change: transform;
+@media (min-width: 768px) {
+  .hero-ken-burns {
+    animation: heroKenBurns 5.5s ease-out forwards;
+    will-change: transform;
+  }
 }
 
 @keyframes heroKenBurns {
@@ -139,6 +141,17 @@ button:disabled,
 @media (prefers-reduced-motion: reduce) {
   .hero-ken-burns {
     animation: none;
+  }
+}
+
+/* Mobile: centre all imagery, no zoom/crop offset */
+@media (max-width: 767px) {
+  .hero-slide-image,
+  .gallery-image,
+  .about-barber-image,
+  .outlet-image {
+    object-position: center center !important;
+    transform: none !important;
   }
 }
 

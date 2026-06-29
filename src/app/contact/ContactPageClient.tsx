@@ -105,7 +105,7 @@ export default function ContactPageClient() {
                 fill
                 sizes="(max-width: 768px) 100vw, 1024px"
                 loading="lazy"
-                className="outlet-image object-cover"
+                className="outlet-image object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-transparent to-charcoal/20 pointer-events-none" />
               <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">

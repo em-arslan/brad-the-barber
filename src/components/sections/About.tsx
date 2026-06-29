@@ -24,7 +24,7 @@ export default function About() {
                   fill
                   priority
                   sizes="(max-width: 1024px) 90vw, 480px"
-                  className="about-barber-image object-cover"
+                  className="about-barber-image object-cover object-center"
                 />
 
                 {/* Premium overlays — moody grade + vignette + bottom fade */}

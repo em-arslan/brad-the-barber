@@ -55,7 +55,7 @@ export default function PlaceholderImage({
       fill={fill}
       width={fill ? undefined : 800}
       height={fill ? undefined : 600}
-      className={cn("object-cover", className)}
+      className={cn("object-cover object-center", className)}
       priority={priority}
       loading={priority ? undefined : loading ?? "lazy"}
       sizes={sizes}
